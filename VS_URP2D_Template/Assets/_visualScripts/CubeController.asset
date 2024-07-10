@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CubeController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Control
+      Cube","summary":"Controls Cube Rotation","pan":{"x":-98.74335,"y":174.7574},"zoom":0.6999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-347.0,"y":20.0},"guid":"af8ce4c6-b83d-44b5-9d98-a81cf33e865f","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"parameterNames":["axis","angle"],"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%axis":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%angle":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-25.0,"y":153.0},"guid":"a4a2bbba-f23b-4b67-ab6e-95dc6b70ab1a","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"member":{"name":"up","parameterTypes":null,"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{},"position":{"x":-251.0,"y":171.0},"guid":"6843e2f3-63bb-4edc-adeb-bdcfd7f5c097","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"yRotate","$type":"System.String"},"object":null},"position":{"x":-281.0,"y":356.0},"guid":"b54e8f7f-c11a-4c79-8290-9245f9e49350","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"f7cb801c-68d9-47c7-8c8c-6194d0e96c24","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%axis","guid":"8a81c931-f5ce-4a7d-b0f8-7a296f1bed15","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%angle","guid":"1a642074-e5bd-427a-8df2-86dd38e80f59","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-20.0,"yMin":-214.0,"xMax":148.0,"yMax":-114.0},"title":"Comments","body":"comments
+      work like this","colorTheme":"Classic","guid":"a46d81f4-f77e-422c-94ef-5009c382c4b8","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []
